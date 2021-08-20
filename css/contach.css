@@ -1,0 +1,20 @@
+        .contact-content {
+            height: 90vh;
+            margin-top: 30px;
+            padding: 9px;
+            position: relative;
+            height: 80vh;
+            overflow: hidden;
+            align-content: center;
+        }
+        
+        .contact-content::after {
+            content: "";
+            background-image: url('../img/free-flat-design-icon-set-of-business-vector.jpg');
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: inherit;
+            opacity: 0.22;
+            z-index: -1;
+        }
